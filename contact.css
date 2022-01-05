@@ -1,0 +1,81 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .menu
+{
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    height: 100px;
+    border-bottom:1px rgb(241, 238, 238) solid ;
+    z-index: 100;
+    position: fixed;
+  
+   
+}
+
+header .menu ul 
+{
+    list-style-type: none;
+   
+    display: flex;
+    margin-left: 700px;
+  padding-top: 30px;
+  
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: Britannic;
+    font-style: normal;
+  
+}
+
+header .menu ul li :hover{
+    color:rgb(249, 7, 152);
+}
+
+main{
+    background-image: url('img/kiwi-5074377_1920.jpg');
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -180px;
+   
+}
+.main_tranparent
+{
+    width: 100%;
+    height: 800px;
+    background-color: white; 
+    opacity: 0.4;
+}
+.first_footer
+{
+    width: 100%;
+    height: 300px;
+   
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border-bottom:2px rgb(31, 30, 30) solid ;
+    margin-top: -120px;
+  
+   
+}
+
+.second_footer
+{ width: 100%;
+    height: 100px;
+    background-color: black;
+
+
+}
